@@ -1,0 +1,6 @@
+{
+  "appId": "com.salsquad.app",
+  "appName": "SALAH SQUAD",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

@@ -1,0 +1,22 @@
+SALAH SQUAD — APK BUILD PACKAGE (phone-friendly)
+
+WHAT THIS ZIP DOES
+This adds a GitHub Actions workflow that builds a debug Android APK in the cloud. It is not itself an APK.
+
+PHONE STEPS
+1) Extract this ZIP (or upload its contents) to a new GitHub repository named salah-squad.
+2) Make sure the repository's main branch contains:
+   - package.json
+   - src/, public/, index.html
+   - capacitor.config.json
+   - .github/workflows/build-apk.yml
+3) In GitHub, open the repository > Actions.
+4) Select "Build SALAH SQUAD APK" > Run workflow > Run workflow.
+5) Wait for the green check. Open that workflow run, scroll to Artifacts, and download SALAH-SQUAD-APK.
+6) Extract the artifact ZIP; it contains app-debug.apk.
+7) Transfer/install app-debug.apk on Android. If prompted, allow "Install unknown apps" for the app you used to open it.
+
+NOTE
+- This is a DEBUG APK suitable for testing/sharing, not a Play Store release.
+- The app currently uses local device storage/demo friends. Real cross-device friend competition requires Firebase setup and backend rules.
+- Android app ID: com.salsquad.app
